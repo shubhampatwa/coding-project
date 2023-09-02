@@ -5,6 +5,7 @@ import {
   IsDateString,
   IsTimeZone,
   MinDate,
+  IsDate,
 } from 'class-validator';
 import { Transform } from 'class-transformer';
 
@@ -17,7 +18,7 @@ export class CreateMeetingDto {
   description?: string;
 
   @IsNotEmpty()
-  @IsDateString()
+  @IsDate()
   @Transform(({ value }) => new Date(value))
   @MinDate(new Date())
   startTime: Date;

@@ -99,5 +99,4 @@ Nest is [MIT licensed](LICENSE).
 - For DB we use postgres
 - Application is deployed using docker and docker-compose
 - Swagger is already integrated in the app
-- Postman url will be added at the end here: 
-
+- Postman url will be added at the end here: [POSTMAN](https://grey-robot-370973.postman.co/workspace/shubhampatwa-personal-Workspace~6b15256b-df22-47ab-8c4a-d62a78ddb427/collection/556587-9fcced75-b720-4cdf-bcb2-823ce2bc67e6?action=share&creator=556587)
